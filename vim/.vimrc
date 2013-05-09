@@ -1,4 +1,9 @@
 syntax on
+set title
 set autoindent
+set copyindent
 set number
+set showmatch
+set ignorecase
+set smartcase
 set background=dark
