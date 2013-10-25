@@ -1,5 +1,9 @@
 syntax on
 set title
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set autoindent
 set copyindent
 set number
