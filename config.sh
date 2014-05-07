@@ -2,7 +2,7 @@
 
 #	== Variables ==
 
-#vim_config_file_location=~/.vimrc
+vim_config_file_location=~/.vimrc
 
 
 ## Git
@@ -13,12 +13,11 @@ git config --global push.default simple
 
 #	=== Configuring Vim ===
 
-#echo "Configuring Vim\n"
-#rm $vim_config_file_location -f
-#cp  vim/.vimrc $vim_config_file_location
-#if [ -f $vim_config_file_location ];
-#then 
-#	echo "Success!"
-#else
-#	echo "Error!"
-#fi
+echo "Configuring Vim...\n"
+cp  vim/.vimrc $vim_config_file_location
+if [ -f $vim_config_file_location ];
+then
+	echo "Success!"
+else
+	echo "Error!"
+fi
