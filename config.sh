@@ -10,6 +10,7 @@ vim_config_file_location=~/.vimrc
 git config --global user.email "hecktorzr@gmail.com"
 git config --global user.name "Hector Zarate"
 git config --global push.default simple
+git config --global color.ui true
 
 #	=== Configuring Vim ===
 
@@ -21,3 +22,4 @@ then
 else
 	echo "Error!"
 fi
+
