@@ -17,6 +17,15 @@ git config --global color.ui true
 
 echo "\tSuccess!\n"
 
+#	=== Configuring Terminal===
+
+echo "Configuring Terminal..."
+cp terminal/.bashrc ~/
+source ~/.bashrc
+echo "\tSuccess!"
+
+
+
 #	=== Configuring Vim ===
 
 echo "Configuring Vim...\n"
