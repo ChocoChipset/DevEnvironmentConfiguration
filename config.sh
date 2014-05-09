@@ -21,7 +21,7 @@ echo "\tSuccess!\n"
 
 echo "Configuring Terminal..."
 cp terminal/.bashrc ~/
-source ~/.bashrc
+source ~/.bash_profile
 echo "\tSuccess!"
 
 
