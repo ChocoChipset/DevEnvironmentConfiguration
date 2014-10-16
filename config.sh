@@ -9,7 +9,7 @@ xcode_themes_directory=~/Library/Developer/Xcode/UserData/FontAndColorThemes
 
 echo "Configuring Git...\n"
 
-
+git config --global rerere.enabled
 git config --global user.email "hecktorzr@gmail.com"
 git config --global user.name "Hector Zarate"
 git config --global push.default simple
